@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  background: #1a2980;
+  background: -webkit-linear-gradient(to right, #26d0ce, #1a2980);
+  background: linear-gradient(to right, #26d0ce, #1a2980);
+  font-family: "Baloo 2", cursive;
+}
+
+h1 {
+  margin-bottom: 40px;
+}
+
+#btn {
+  padding: 15px 25px;
+  border-radius: 20px;
+  background-color: blue;
+  border: none;
+  outline: none;
+  transition: transform 0.5s;
+  color: antiquewhite;
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+#btn:hover {
+  transform: scale(1.1);
+}
+
+.bgc {
+  font-family: "Roboto", sans-serif;
+  background: #833ab4;
+  background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+  background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+}
